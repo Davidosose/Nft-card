@@ -109,3 +109,12 @@ body{
 .border{
   border-bottom: 1px solid white;
 }
+@media (max-width :320px){
+  .card{
+    height: 35rem;
+    width: 100vw;
+  }
+  .status p{
+    font-size: 14px;
+  }
+}
